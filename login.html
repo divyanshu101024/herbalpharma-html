@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>herbal pharm login</title>
+</head>
+<style>
+   nav{
+        width: 100%;
+        height: 80px;
+        /* background-color: yellow; */
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        /* transition: all 1s; */
+    }
+    .link a:hover {
+     
+        background-color: cornflowerblue;
+        background-size: 200px ;
+    }
+    a { transition: all 3s;
+
+    }
+
+    .logo:hover{ position: relative;
+        transform: scale(1.1);
+
+    }
+    .icons:hover{ position: relative;
+        transform: scale(1.1) 1s;
+        background-color: blue;
+
+    }
+    .logo{
+        /* background-color: green; */
+        width: 15%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .link{
+        /* background-color: red; */
+        width: 70%;
+        height: 80px;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        transition:1s ease;
+    }
+    .icons{
+        /* background-color: greenyellow; */
+        width: 15%;
+        height: 80px;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 2s;
+    }
+    .body{ height: 100vh;
+
+    }
+    .container{
+        width: 30%; height: 500px;
+        display: flex;
+        margin-left:  200px;
+        margin-top: 100px;
+    }
+    .container1{
+        width: 50%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 450px; 
+        margin-top: -440px;
+    }
+    .two{
+        width: 60%;
+        height: 400px;
+        /* background-color: aqua; */
+        text-align: center;
+        border: solid black 1px;
+        padding-bottom: 20px;
+
+    }
+    .three{
+        width: 60%;
+        height: 250px;
+        padding-top: 10x;
+        padding-bottom: 10px;
+        /* background-color: aqua; */
+         /* border: solid black 1px; */
+         text-align: center;
+    }
+    .four, a { margin-left: 20px; 
+
+    }
+</style>
+<body>
+  <nav>
+        <div class="logo">
+            <img src="./logo.html.png" alt="" width="200px" height="80px" >
+        </div>
+        <div class="link">
+            <a href="http://127.0.0.1:5500/signinpage.html" style="color: black; font-size: 40px; padding: 20px; text-decoration: none;">Home</a>
+        <a href="https://sastabazzars.in/" style="color: black; font-size: 40px; padding: 20px; text-decoration: none;">About</a>
+        <a href="https://sastabazzars.in/https://sastabazzars.in/" style="color: black; font-size: 40px; padding: 20px; text-decoration: none;"> Medical Plants</a>
+        <a href="https://sastabazzars.in/"style="color: black; font-size: 40px; padding: 20px; text-decoration: none;">Contact</a>
+        <a href="https://sastabazzars.in/"style="color: black; font-size: 40px; padding: 20px;text-decoration: none;">Login</a>
+        <a href="https://sastabazzars.in/collections/gown"style="color: black; font-size: 40px; padding: 20px;text-decoration: none;">Sign Up</a>
+        
+        </div>
+        <div class="icons">
+          <img src="./immage/menu bar img 1.png" alt="">
+          <img src="./immage/menubar img2.png" alt="">
+          <img src="./immage/menubar img3.png" alt="">
+        </div>
+    </nav>
+    <div class="container">
+        <div class="one">
+            <!-- <img src="" alt="" width="100%" height="100%"> -->
+        </div>
+    </div> 
+    <div class="container1">   
+        <div class="two">
+            <h1>welcome to herbal pharm</h1><br><br><br>
+            <input type="" placeholder="phone number,username or,id" id="one"> <br> <br><br>
+            <input type="password" placeholder="password" id="two"><br><br>
+            <button  onclick="show()">log in</button><br><br>
+            <!-- <a href="https://www.instagram.com/" ></a> -->
+            <hr>or<hr>
+            <a href="https://myaccount.google.com/">log in with google/a> <br>
+            <a href="">forget password</a> <br>
+        </div>
+        <div class="three">
+            <p>didn't have an account?</p><a href="http://127.0.0.1:5500/pageno4.html">sign up</a>
+        </div>
+       
+    </div>
+</body>
+<script>
+    function show() {
+    id= document.getElementById("one").value;
+    password= document.getElementById("two").value;
+    if ((id == "divyanshu"  && password == "choudhary"))
+    {  
+       window.open("http://127.0.0.1:5500/signinpage.html");
+    }
+    else 
+    {alert("incorrect password")
+
+    }
+}
+</script>
+</html>

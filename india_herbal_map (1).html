@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_34c2cfeae48fdd99a68f9bb6eb4c4d7e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_34c2cfeae48fdd99a68f9bb6eb4c4d7e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_34c2cfeae48fdd99a68f9bb6eb4c4d7e = L.map(
+                "map_34c2cfeae48fdd99a68f9bb6eb4c4d7e",
+                {
+                    center: [22.9734, 78.6569],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cbc10ecea87f7c9f81faf1743d28d179 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_34c2cfeae48fdd99a68f9bb6eb4c4d7e);
+        
+    
+            var marker_eb465d97cf3c2c7166309c1f15d4c649 = L.marker(
+                [30.0668, 79.0193],
+                {}
+            ).addTo(map_34c2cfeae48fdd99a68f9bb6eb4c4d7e);
+        
+    
+            var icon_b0df5423cc587db3d49fdc78e03d9418 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eb465d97cf3c2c7166309c1f15d4c649.setIcon(icon_b0df5423cc587db3d49fdc78e03d9418);
+        
+    
+        var popup_b77a47433daee568c507a25af3b4907e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_927745c725f2ceaf3cf94eb8c683aaf3 = $(`<div id="html_927745c725f2ceaf3cf94eb8c683aaf3" style="width: 100.0%; height: 100.0%;">Herbal Region: Himalayan Region</div>`)[0];
+            popup_b77a47433daee568c507a25af3b4907e.setContent(html_927745c725f2ceaf3cf94eb8c683aaf3);
+        
+
+        marker_eb465d97cf3c2c7166309c1f15d4c649.bindPopup(popup_b77a47433daee568c507a25af3b4907e)
+        ;
+
+        
+    
+    
+            var marker_dccf6a2dce8a1b04d990671934a39b69 = L.marker(
+                [11.4102, 76.695],
+                {}
+            ).addTo(map_34c2cfeae48fdd99a68f9bb6eb4c4d7e);
+        
+    
+            var icon_787f394fcaa900035e08d69f7efc3f6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dccf6a2dce8a1b04d990671934a39b69.setIcon(icon_787f394fcaa900035e08d69f7efc3f6a);
+        
+    
+        var popup_457d9f90401fd55f0e631abdaa22d0f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3e16e63735a6c192090e5a94c98dd43 = $(`<div id="html_d3e16e63735a6c192090e5a94c98dd43" style="width: 100.0%; height: 100.0%;">Herbal Region: Western Ghats & Nilgiri Mountains</div>`)[0];
+            popup_457d9f90401fd55f0e631abdaa22d0f0.setContent(html_d3e16e63735a6c192090e5a94c98dd43);
+        
+
+        marker_dccf6a2dce8a1b04d990671934a39b69.bindPopup(popup_457d9f90401fd55f0e631abdaa22d0f0)
+        ;
+
+        
+    
+    
+            var marker_a9455e5ed81196441b17d4fa371cd702 = L.marker(
+                [24.5854, 73.7125],
+                {}
+            ).addTo(map_34c2cfeae48fdd99a68f9bb6eb4c4d7e);
+        
+    
+            var icon_de8292d490354672ae2b22d25562e91d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a9455e5ed81196441b17d4fa371cd702.setIcon(icon_de8292d490354672ae2b22d25562e91d);
+        
+    
+        var popup_615dece7eaf42d514f2c83a56950606d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19fb25617c7291b847738579ad7d18b7 = $(`<div id="html_19fb25617c7291b847738579ad7d18b7" style="width: 100.0%; height: 100.0%;">Herbal Region: Aravali Range</div>`)[0];
+            popup_615dece7eaf42d514f2c83a56950606d.setContent(html_19fb25617c7291b847738579ad7d18b7);
+        
+
+        marker_a9455e5ed81196441b17d4fa371cd702.bindPopup(popup_615dece7eaf42d514f2c83a56950606d)
+        ;
+
+        
+    
+    
+            var marker_09c1eb4e7b0f7e084744123710c24830 = L.marker(
+                [26.2006, 92.9376],
+                {}
+            ).addTo(map_34c2cfeae48fdd99a68f9bb6eb4c4d7e);
+        
+    
+            var icon_9632b332114f54decd28f02dff802720 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_09c1eb4e7b0f7e084744123710c24830.setIcon(icon_9632b332114f54decd28f02dff802720);
+        
+    
+        var popup_b44dbe7c2d10f7654a2121abfc3ccce9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3972091e6a5dc0caad64ae0c19e4f3fa = $(`<div id="html_3972091e6a5dc0caad64ae0c19e4f3fa" style="width: 100.0%; height: 100.0%;">Herbal Region: North-Eastern India</div>`)[0];
+            popup_b44dbe7c2d10f7654a2121abfc3ccce9.setContent(html_3972091e6a5dc0caad64ae0c19e4f3fa);
+        
+
+        marker_09c1eb4e7b0f7e084744123710c24830.bindPopup(popup_b44dbe7c2d10f7654a2121abfc3ccce9)
+        ;
+
+        
+    
+    
+            var marker_27b7067bbc35035c746f171b73d9315a = L.marker(
+                [22.9734, 78.6569],
+                {}
+            ).addTo(map_34c2cfeae48fdd99a68f9bb6eb4c4d7e);
+        
+    
+            var icon_0c6d50527d5d24839c52da97cd59f370 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_27b7067bbc35035c746f171b73d9315a.setIcon(icon_0c6d50527d5d24839c52da97cd59f370);
+        
+    
+        var popup_f37063a3e918350b5a2eb80be3460b29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_417f85948563dd3aa31f7d51c9041b06 = $(`<div id="html_417f85948563dd3aa31f7d51c9041b06" style="width: 100.0%; height: 100.0%;">Herbal Region: Central India</div>`)[0];
+            popup_f37063a3e918350b5a2eb80be3460b29.setContent(html_417f85948563dd3aa31f7d51c9041b06);
+        
+
+        marker_27b7067bbc35035c746f171b73d9315a.bindPopup(popup_f37063a3e918350b5a2eb80be3460b29)
+        ;
+
+        
+    
+    
+            var marker_3a7ab231b57cb68aa880de18abfde112 = L.marker(
+                [22.5645, 72.9289],
+                {}
+            ).addTo(map_34c2cfeae48fdd99a68f9bb6eb4c4d7e);
+        
+    
+            var icon_dd6b5f3f66f5a3f5020f5032feda008e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3a7ab231b57cb68aa880de18abfde112.setIcon(icon_dd6b5f3f66f5a3f5020f5032feda008e);
+        
+    
+        var popup_6eb878f9946bec3616191d82568c02d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e976772fca8ab00d901eb0631a60f0d = $(`<div id="html_3e976772fca8ab00d901eb0631a60f0d" style="width: 100.0%; height: 100.0%;">Research Institute: NRCAMP (Anand, Gujarat)</div>`)[0];
+            popup_6eb878f9946bec3616191d82568c02d9.setContent(html_3e976772fca8ab00d901eb0631a60f0d);
+        
+
+        marker_3a7ab231b57cb68aa880de18abfde112.bindPopup(popup_6eb878f9946bec3616191d82568c02d9)
+        ;
+
+        
+    
+    
+            var marker_3a371e5c67c6d00cd63c6d0b047c2214 = L.marker(
+                [26.8467, 80.9462],
+                {}
+            ).addTo(map_34c2cfeae48fdd99a68f9bb6eb4c4d7e);
+        
+    
+            var icon_3195295790b29f9296dc22cdfd7ca66e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3a371e5c67c6d00cd63c6d0b047c2214.setIcon(icon_3195295790b29f9296dc22cdfd7ca66e);
+        
+    
+        var popup_8c53634e50d6f534940b4fe4a58bd6f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e647b42afff4fda1dc450c2ec68197d = $(`<div id="html_0e647b42afff4fda1dc450c2ec68197d" style="width: 100.0%; height: 100.0%;">Research Institute: CIMAP (Lucknow, Uttar Pradesh)</div>`)[0];
+            popup_8c53634e50d6f534940b4fe4a58bd6f0.setContent(html_0e647b42afff4fda1dc450c2ec68197d);
+        
+
+        marker_3a371e5c67c6d00cd63c6d0b047c2214.bindPopup(popup_8c53634e50d6f534940b4fe4a58bd6f0)
+        ;
+
+        
+    
+    
+            var marker_e6de2e02330f1998a4d61712b40d75b3 = L.marker(
+                [28.6692, 77.4538],
+                {}
+            ).addTo(map_34c2cfeae48fdd99a68f9bb6eb4c4d7e);
+        
+    
+            var icon_f0bdd0df142ad07782b176ea95fe810c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flask", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e6de2e02330f1998a4d61712b40d75b3.setIcon(icon_f0bdd0df142ad07782b176ea95fe810c);
+        
+    
+        var popup_b45fb5c282f532cc30f14e9f2ea72283 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6645b8f53d40b3aefb9c0976f13d447d = $(`<div id="html_6645b8f53d40b3aefb9c0976f13d447d" style="width: 100.0%; height: 100.0%;">Testing Lab: Pharmacopoeial Laboratory of Indian Medicine (Ghaziabad, UP)</div>`)[0];
+            popup_b45fb5c282f532cc30f14e9f2ea72283.setContent(html_6645b8f53d40b3aefb9c0976f13d447d);
+        
+
+        marker_e6de2e02330f1998a4d61712b40d75b3.bindPopup(popup_b45fb5c282f532cc30f14e9f2ea72283)
+        ;
+
+        
+    
+    
+            var marker_7e2f0e8037b2da47c48802db244af40f = L.marker(
+                [28.7041, 77.1025],
+                {}
+            ).addTo(map_34c2cfeae48fdd99a68f9bb6eb4c4d7e);
+        
+    
+            var icon_2c7e2bafcdcbf8d5a770067fbaa6b145 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flask", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7e2f0e8037b2da47c48802db244af40f.setIcon(icon_2c7e2bafcdcbf8d5a770067fbaa6b145);
+        
+    
+        var popup_fd02a0b7aa9e03795105d4523e190e20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_474e09e8d4681e3fe233016bd97579cf = $(`<div id="html_474e09e8d4681e3fe233016bd97579cf" style="width: 100.0%; height: 100.0%;">Testing Lab: Auriga Research (Delhi)</div>`)[0];
+            popup_fd02a0b7aa9e03795105d4523e190e20.setContent(html_474e09e8d4681e3fe233016bd97579cf);
+        
+
+        marker_7e2f0e8037b2da47c48802db244af40f.bindPopup(popup_fd02a0b7aa9e03795105d4523e190e20)
+        ;
+
+        
+    
+    
+            var marker_97baccf467e4757476996c8f158669a4 = L.marker(
+                [28.354, 76.9399],
+                {}
+            ).addTo(map_34c2cfeae48fdd99a68f9bb6eb4c4d7e);
+        
+    
+            var icon_8a182f7135be80a2d3ca46a02ccac1a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flask", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_97baccf467e4757476996c8f158669a4.setIcon(icon_8a182f7135be80a2d3ca46a02ccac1a1);
+        
+    
+        var popup_883d83c556dff5aa840d4702b9e55402 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45838f3108ccacee756e9913796b97a1 = $(`<div id="html_45838f3108ccacee756e9913796b97a1" style="width: 100.0%; height: 100.0%;">Testing Lab: Auriga Research (Manesar, Haryana)</div>`)[0];
+            popup_883d83c556dff5aa840d4702b9e55402.setContent(html_45838f3108ccacee756e9913796b97a1);
+        
+
+        marker_97baccf467e4757476996c8f158669a4.bindPopup(popup_883d83c556dff5aa840d4702b9e55402)
+        ;
+
+        
+    
+    
+            var marker_526930830f4acc9ea30e70fc53d62628 = L.marker(
+                [31.0496, 76.9949],
+                {}
+            ).addTo(map_34c2cfeae48fdd99a68f9bb6eb4c4d7e);
+        
+    
+            var icon_339347d60a51b37a76b1fd5685137370 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flask", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_526930830f4acc9ea30e70fc53d62628.setIcon(icon_339347d60a51b37a76b1fd5685137370);
+        
+    
+        var popup_5cee73044eccabae2a75b142314352e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f561188e8417a87ff4a0edc91b72e8e3 = $(`<div id="html_f561188e8417a87ff4a0edc91b72e8e3" style="width: 100.0%; height: 100.0%;">Testing Lab: Auriga Research (Baddi, Himachal Pradesh)</div>`)[0];
+            popup_5cee73044eccabae2a75b142314352e0.setContent(html_f561188e8417a87ff4a0edc91b72e8e3);
+        
+
+        marker_526930830f4acc9ea30e70fc53d62628.bindPopup(popup_5cee73044eccabae2a75b142314352e0)
+        ;
+
+        
+    
+    
+            var marker_eeabf0c7bd8b8d0af53a881fb35b4d1f = L.marker(
+                [12.9716, 77.5946],
+                {}
+            ).addTo(map_34c2cfeae48fdd99a68f9bb6eb4c4d7e);
+        
+    
+            var icon_6a5dca865f7250ecc532658228f4f521 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flask", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eeabf0c7bd8b8d0af53a881fb35b4d1f.setIcon(icon_6a5dca865f7250ecc532658228f4f521);
+        
+    
+        var popup_357f48d89269782db96b3747abd11016 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65fe8b76ab4debe7d1661f4c874e89ad = $(`<div id="html_65fe8b76ab4debe7d1661f4c874e89ad" style="width: 100.0%; height: 100.0%;">Testing Lab: Auriga Research (Bangalore, Karnataka)</div>`)[0];
+            popup_357f48d89269782db96b3747abd11016.setContent(html_65fe8b76ab4debe7d1661f4c874e89ad);
+        
+
+        marker_eeabf0c7bd8b8d0af53a881fb35b4d1f.bindPopup(popup_357f48d89269782db96b3747abd11016)
+        ;
+
+        
+    
+    
+            var marker_bb50dea800b5ecf0c06f9b0e0a88e40b = L.marker(
+                [19.076, 72.8777],
+                {}
+            ).addTo(map_34c2cfeae48fdd99a68f9bb6eb4c4d7e);
+        
+    
+            var icon_a2dcd491f96f9a78f46b01e853d28b6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flask", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bb50dea800b5ecf0c06f9b0e0a88e40b.setIcon(icon_a2dcd491f96f9a78f46b01e853d28b6b);
+        
+    
+        var popup_e1338c9b8792cf20b6f15e6ad2609504 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c53be44732faade77dea345a9a23a95f = $(`<div id="html_c53be44732faade77dea345a9a23a95f" style="width: 100.0%; height: 100.0%;">Testing Lab: ISSPL (IRCLASS Systems and Solutions Pvt Ltd)</div>`)[0];
+            popup_e1338c9b8792cf20b6f15e6ad2609504.setContent(html_c53be44732faade77dea345a9a23a95f);
+        
+
+        marker_bb50dea800b5ecf0c06f9b0e0a88e40b.bindPopup(popup_e1338c9b8792cf20b6f15e6ad2609504)
+        ;
+
+        
+    
+    
+            var marker_8633859d9a8c52c0621751705ce18476 = L.marker(
+                [30.6942, 76.8606],
+                {}
+            ).addTo(map_34c2cfeae48fdd99a68f9bb6eb4c4d7e);
+        
+    
+            var icon_9a0ad62e5d3bfbd7638a0bcf5a2b55f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flask", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8633859d9a8c52c0621751705ce18476.setIcon(icon_9a0ad62e5d3bfbd7638a0bcf5a2b55f7);
+        
+    
+        var popup_ce8327afa72f271579536a45aa631eff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e3d0788ea267b075a9a7ecec2f53803 = $(`<div id="html_9e3d0788ea267b075a9a7ecec2f53803" style="width: 100.0%; height: 100.0%;">Testing Lab: ITC Labs (Interstellar Testing Centre, Panchkula, Haryana)</div>`)[0];
+            popup_ce8327afa72f271579536a45aa631eff.setContent(html_9e3d0788ea267b075a9a7ecec2f53803);
+        
+
+        marker_8633859d9a8c52c0621751705ce18476.bindPopup(popup_ce8327afa72f271579536a45aa631eff)
+        ;
+
+        
+    
+    
+            var marker_df3b21dca4411b0a3ff0d5b015d67996 = L.marker(
+                [28.4595, 77.0266],
+                {}
+            ).addTo(map_34c2cfeae48fdd99a68f9bb6eb4c4d7e);
+        
+    
+            var icon_b2602e7064af3e1b24f3a556c76eb9a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flask", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_df3b21dca4411b0a3ff0d5b015d67996.setIcon(icon_b2602e7064af3e1b24f3a556c76eb9a7);
+        
+    
+        var popup_1a46aa1f4ea7806a824908996c11547d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8aed0b82bafa79287742885c3d3c2649 = $(`<div id="html_8aed0b82bafa79287742885c3d3c2649" style="width: 100.0%; height: 100.0%;">Testing Lab: FARE Labs (Gurgaon, Haryana)</div>`)[0];
+            popup_1a46aa1f4ea7806a824908996c11547d.setContent(html_8aed0b82bafa79287742885c3d3c2649);
+        
+
+        marker_df3b21dca4411b0a3ff0d5b015d67996.bindPopup(popup_1a46aa1f4ea7806a824908996c11547d)
+        ;
+
+        
+    
+    
+            var marker_bf84030b4b1049b3d7115b667e41783c = L.marker(
+                [12.9716, 77.5946],
+                {}
+            ).addTo(map_34c2cfeae48fdd99a68f9bb6eb4c4d7e);
+        
+    
+            var icon_76d4c85b926fe749f708aca20f4c0c0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flask", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bf84030b4b1049b3d7115b667e41783c.setIcon(icon_76d4c85b926fe749f708aca20f4c0c0f);
+        
+    
+        var popup_acdc0fae87d769a9d5353cc3d6221bc3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2dd23876a1f6bdb94aafe2079e49d1ea = $(`<div id="html_2dd23876a1f6bdb94aafe2079e49d1ea" style="width: 100.0%; height: 100.0%;">Testing Lab: Eureka Analytical Services (Bangalore)</div>`)[0];
+            popup_acdc0fae87d769a9d5353cc3d6221bc3.setContent(html_2dd23876a1f6bdb94aafe2079e49d1ea);
+        
+
+        marker_bf84030b4b1049b3d7115b667e41783c.bindPopup(popup_acdc0fae87d769a9d5353cc3d6221bc3)
+        ;
+
+        
+    
+    
+            var marker_9beed745cae7cae23bbe2ffa740c7c6c = L.marker(
+                [28.6139, 77.209],
+                {}
+            ).addTo(map_34c2cfeae48fdd99a68f9bb6eb4c4d7e);
+        
+    
+            var icon_f3d15e6d8fe08a508b64250de7872421 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flask", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9beed745cae7cae23bbe2ffa740c7c6c.setIcon(icon_f3d15e6d8fe08a508b64250de7872421);
+        
+    
+        var popup_16c95aa5e2519f538eb6c2c4e3deec32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9ffa47d40f6293118f320577b705168 = $(`<div id="html_d9ffa47d40f6293118f320577b705168" style="width: 100.0%; height: 100.0%;">Testing Lab: Arbro Pharmaceuticals (New Delhi)</div>`)[0];
+            popup_16c95aa5e2519f538eb6c2c4e3deec32.setContent(html_d9ffa47d40f6293118f320577b705168);
+        
+
+        marker_9beed745cae7cae23bbe2ffa740c7c6c.bindPopup(popup_16c95aa5e2519f538eb6c2c4e3deec32)
+        ;
+
+        
+    
+</script>
+</html>

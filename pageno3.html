@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medical Plants - Ayurvedic Herbal Pharm</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 30px 0;
+      color: #2e7d32;
+    }
+
+    .container {
+      width: 90%;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-content h2 {
+      margin: 0;
+      font-size: 20px;
+      color: #1b5e20;
+    }
+
+    .card-content p {
+      font-size: 14px;
+      color: #333;
+      margin-top: 10px;
+      text-align: justify;
+    }
+
+    /* Button for show more */
+    .show-btn {
+      background: #388e3c;
+      color: #fff;
+      border: none;
+      padding: 8px 12px;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 6px;
+      font-size: 14px;
+      transition: background 0.3s;
+    }
+
+    .show-btn:hover {
+      background: #2e7d32;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌿 Medical Plants</h1>
+
+  <div class="container">
+
+    <!-- Ashwagandha -->
+    <div class="card">
+      <img src="./medical plants image.html" alt="Ashwagandha">
+      <div class="card-content">
+        <h2>Ashwagandha (Withania somnifera)</h2>
+        <p>Ashwagandha is also called 'Indian Ginseng'. It is a powerful adaptogen that reduces stress, anxiety, and fatigue.</p>
+        <p class="more hidden">It strengthens the immune system, increases stamina, and improves sleep. In Ayurveda, it is considered a rejuvenator (Rasayana).</p>
+        <button class="show-btn" onclick="toggleText(this)">Read More</button>
+      </div>
+    </div>
+
+    <!-- Amla -->
+    <div class="card">
+      <img src="./medical plants image 2 .html" alt="Brahmi">
+      <div class="card-content">
+        <h2>Brahmi (Bacopa monnieri)</h2>
+        <p>Brahmi is a memory enhancer plant. It activates brain neurons and improves concentration, learning, and memory power.</p>
+        <p class="more hidden">Brahmi is called a "middle rasayana" because it supports the nervous system and reduces stress.</p>
+        <button class="show-btn" onclick="toggleText(this)">Read More</button>
+      </div>
+    </div>
+
+    <!-- Brahmi -->
+    <div class="card">
+      <img src="./medical plants image 4 .html" alt="Amla">
+      <div class="card-content">
+        <h2>Amla (Emblica officinalis)</h2>
+        <p>Amla is a superfood rich in vitamin C. It is renowned for its immunity boost, skin glow, and hair health.</p>
+        <p class="more hidden">In Ayurveda, it is called a tridosha balancing fruit which detoxifies the liver and improves digestion.</p>
+        <button class="show-btn" onclick="toggleText(this)">Read More</button>
+      </div>
+    </div>
+
+    <!-- Tulsi -->
+    <div class="card">
+      <img src="./medical plants image 3 .html" alt="Tulsi">
+      <div class="card-content">
+        <h2>Tulsi (Ocimum sanctum)</h2>
+        <p>Tulsi, also known as holy basil, is considered the "Queen of Herbs" in Ayurveda. It is excellent for respiratory health.</p>
+        <p class="more hidden">Tulsi has antibacterial, antiviral, and antifungal properties and naturally boosts immunity.</p>
+        <button class="show-btn" onclick="toggleText(this)">Read More</button>
+      </div>
+    </div>
+
+    <!-- Shatavari -->
+    <div class="card">
+      <img src="./medical plants image 5 .html" alt="Shatavari">
+      <div class="card-content">
+        <h2>Shatavari (Asparagus racemosus)</h2>
+        <p>Shatavari is a manly female health tonic. It balances hormones, aids fertility and lactation.</p>
+        <p class="more hidden">It is a natural cooling herb that balances bile, supports digestion and improves overall stamina.</p>
+        <button class="show-btn" onclick="toggleText(this)">Read More</button>
+      </div>
+    </div>
+
+    <!-- Giloy -->
+    <div class="card">
+      <img src="./gilloy.html.jpg" alt="Giloy">
+      <div class="card-content">
+        <h2>Giloy (Tinospora cordifolia)</h2>
+        <p>Giloy is called "Amrita" in Ayurveda, which means "nectar of immortality." It is a fever reducer, immunity booster, and detoxifier.</p>
+        <p class="more hidden">It is beneficial for diseases like malaria, dengue, and typhoid. Giloy also purifies the liver and blood.</p>
+        <button class="show-btn" onclick="toggleText(this)">Read More</button>
+      </div>
+    </div>
+
+    <!-- Isabgol -->
+    <div class="card">
+      <img src="./medical plants image 66 .html" alt="Isabgol">
+      <div class="card-content">
+        <h2>Isabgol (Plantago ovata)</h2>
+        <p> psyllium is a natural fiber supplement that is excellent for digestion. It relieves constipation and regulates bowel movements.</p>
+        <p class="more hidden">It is also helpful for diabetes and cholesterol patients as it controls blood sugar and cholesterol.</p>
+        <button class="show-btn" onclick="toggleText(this)">Read More</button>
+      </div>
+    </div>
+
+    <!-- Senna -->
+    <div class="card">
+      <img src="./medical plants image 7 .html" alt="Senna">
+      <div class="card-content">
+        <h2>Senna (Cassia angustifolia)</h2>
+        <p>Senna leaves are a natural laxative and are especially used to treat constipation.</p>
+        <p class="more hidden">Its regular use softens the stool and cleanses the colon.</p>
+        <button class="show-btn" onclick="toggleText(this)">Read More</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    function toggleText(button) {
+      let moreText = button.previousElementSibling;
+      if (moreText.classList.contains("hidden")) {
+        moreText.classList.remove("hidden");
+        button.textContent = "Read Less";
+      } else {
+        moreText.classList.add("hidden");
+        button.textContent = "Read More";
+      }
+    }
+  </script>
+
+</body>
+</html>
